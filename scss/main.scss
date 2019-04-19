@@ -1,0 +1,124 @@
+
+// @import "tools/_normalize.scss";
+// @import "vars";
+@import "fonts";
+// @import "libs";
+
+// ::placeholder {
+// 	color: #666;
+// }
+
+// ::selection {
+// 	background-color: $accent;
+// 	color: #fff;
+// }
+
+
+// old styles
+
+.d-grid {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1176px;
+}
+
+// end old styles
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', 'Segoe UI', Tahoma, Verdana, sans-serif;
+	// font-size: 14px;
+	// min-width: 320px;
+	// position: relative;
+	// line-height: 1.79;
+	// letter-spacing: 1px;
+	// // font-family: $default-font;
+	// overflow-x: hidden;
+	// color: $text;
+	// input, textarea {
+	// 	border: #666 1px solid;
+	// 	outline: none;
+	// 	&:focus:required:invalid {
+	// 		border-color: red;
+	// 	}
+	// 	&:required:valid {
+	// 		border-color: green;
+	// 	}
+	// }
+}
+body, button, input, select, textarea {
+    font: 14px/1.43 'Roboto',Arial,Helvetica,sans-serif;
+    color: #333;
+}
+
+// .img-responsive {
+// 	display: block;
+// 	max-width: 100%;
+// 	height: auto;
+// 	&.img-width {
+// 		width: 100%;
+// 	}
+// }
+
+b, strong {
+	font-weight: bold;
+}
+.wrap {
+	max-width: 1680px;
+	margin: 0 auto;
+}
+// a {
+// 	text-decoration: none;
+// 	color: $text;
+// 	-webkit-transition: all.6s ease; 
+// 	-moz-transition: all.6s ease;
+// 	-ms-transition: all.6s ease; 
+// 	-o-transition: all.6s ease; 
+// 	transition: all.6s ease;
+// 	outline:none !important;
+// 	border: none;
+// 	&:hover {
+// 		outline:none;
+// 	};
+// 	&:active {
+// 		outline:none;
+// 		-webkit-transition: all.1s ease; 
+// 		-moz-transition: all.1s ease;
+// 		-ms-transition: all.1s ease; 
+// 		-o-transition: all.1s ease; 
+// 		transition: all.1s ease;
+// 	};
+// }
+// ul,li {
+// 	list-style: none;
+// 	margin: 0;
+// 	padding: 0;
+// }
+// .primary-text {
+// 	// font-family: $second-font;
+// 	text-transform: uppercase;
+// 	font-size: 10px;
+// 	letter-spacing: 4px;
+// }
+// .subtitle {
+// 	// font-family: $title-font;
+// 	text-transform: uppercase;
+// 	font-size: 12px;
+// 	letter-spacing: 12px;
+// 	color: #000;
+// }
+// .title {
+// 	// font-family: $title-font;
+// 	text-transform: uppercase;
+// 	font-size: 35px;
+// 	letter-spacing: 12px;
+// 	color: #000;
+// }
+
+
+@import "sections/page"; 
+
+// @import "sections/footer"; 
+
+@import "media"; // Always at the end
