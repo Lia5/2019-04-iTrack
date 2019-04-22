@@ -69,6 +69,7 @@
 }
 .first-screen {
     padding-bottom: 39px;
+    padding-top: 59px;
     min-height: 764px;
     // height: 100vh;
     display: flex;
@@ -90,6 +91,9 @@
         background-position: center;
         background-repeat: no-repeat;
         padding-bottom: 0;
+    }
+    &__btn {
+        margin-bottom: -59px;
     }
 }
 
@@ -313,6 +317,7 @@
 @media only screen and (max-width: 1145px) {
     .first-screen {
         min-height: 500px;
+        padding-top: 0;
         &__wrap {
             background-size: cover;
         }
